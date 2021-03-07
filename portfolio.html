@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@300;700&display=swap" rel="stylesheet">
+  <title>Maud Sicard</title>
+</head>
+<body>
+  <header>
+    <nav>
+      <a href="index.html">Accueil</a>
+      <a href="portfolio.html">Portfolio</a>
+      <a href= "css/Maud_Sicard_CV.pdf" download="#">Télécharger mon CV</a>
+    </nav>
+  </header>
+
+
+  <main>
+    <div class="container_p">
+      <p class= "intro">Voici mon portfolio !</p>
+      <div class="container_column">
+        <div class = "column">
+          <p>J'ai réalisé plusieurs projets au cours de ma formation. Cependant, j'ai tenu à mener à bien des projets personnels, en toute autonomie, afin de tester mes compétences. J'ai tenté de mettre à profit dans ces projets les outils et langages appris ; vous allez donc retrouver les langages HTML, CSS, JS et PHP, les API, frameworks (Lumen, Symfony), CMS (Wordpress), la POO, AJAX, my SQL, ...</p>
+        </div>
+        <div class = "column">
+      <p>Chacun de ces projets est consultable sur Github. Dans chaque projet, vous trouverez un fichier readme qui a pour objectif d'expliquer succintement ma démarche, les difficultés rencontrées et les améliorations auxquelles je pense.</p>
+      <button id="button">Cliquez ici pour afficher la liste des projets</button>
+      </div>
+   </div>
+
+    <div class= "container_projects">
+      <template>
+        <div class="project">
+          <div class = "image">
+            <img src="" alt="">
+          </div>
+          <div class="comment">
+            <h3>Titre du projet</h3>
+            <p>Commentaires sur le projet</p>
+            <p>Vous pouvez voir ce site en cliquant sur ce <a href="" class="url" target="_blank">lien</a> ou sur <a href="" class="git" target="_blank">GitHub.</a></p>
+          </div>
+      </div>
+      </template>
+    </div>
+
+ </main>
+
+ <footer>
+  <p>Pour me joindre : maud.sicard@gmail.com</p>
+</footer>
+<script src="js/data.js"></script>
+<script src="js/app.js"></script>
+</body>
+</html>
