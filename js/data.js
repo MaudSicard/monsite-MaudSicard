@@ -36,8 +36,8 @@ const data =
     './css/wp.PNG',
     'WP-articles',
     'Wordpress nous permet de gérer des contenus, profitons - en pour partager des concepts informatiques',
-    'http://maudsicard.com/wp_articles', 
-    'http://www.shrl5291.odns.fr/wp_dico/'
+    'http://www.shrl5291.odns.fr/wp_dico/', 
+    'https://github.com/MaudSicard/WP-dico-MaudSicard/'
   ], 
 
   [
